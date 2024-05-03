@@ -2,7 +2,8 @@ defaults:
   - image_generator: sdxl_lightning
   - dataset_generator: simple_prompts
 
-data_dir: ${root_dir}/dataset
+#data_dir: ${root_dir}/dataset#
+data_dir: /Data/tonle.coralie/dataset
 root_dir:  ${hydra:runtime.cwd}
 batch_size: 1
 
